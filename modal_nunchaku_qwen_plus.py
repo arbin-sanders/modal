@@ -42,7 +42,7 @@ image = image.env(
     }
 )
 
-app = modal.App("nunchaku-qwen-image-fastapi")
+app = modal.App("nunchaku-qwen-image-plus-fastapi")
 
 with image.imports():
     import torch
